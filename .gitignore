@@ -1,0 +1,32 @@
+# Sensitive Credentials & Tokens
+.canvas_config.env
+*.env
+*.env.*
+*.key
+*.token
+
+# Python & Environment Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS Artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary & Build artifacts
+*.tmp
+*.log
+scratch/
+
+# Courses excluded from tracking
+Stats & Inferencing/
