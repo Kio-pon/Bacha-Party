@@ -1,0 +1,13 @@
+db.students.insertMany([
+{'FirstName':'Hina', 'LastName':'Baig','CGPA':3.5,'Major':'CS','Address':{'Street':'Puran Nagar','City': 'Faisalabad','Province':'Punjab','Country':'Pakistan'},'Phone':'3233389064','Courses':[{'course_id':'CS101','course_name':'Pfun','credits':4},{'course_id':'CS121','course_name':'OOP','credits':4}]}
+,
+{'FirstName':'Karim', 'LastName':'Khan','CGPA':3.2,'Major':'EE','Address':{'Street':' Off Nishter Road','City': 'Karachi','Province':'Sindh','Country':'Pakistan'},'Phone':'9221-7733790','Courses':[{'course_id':'CH111','course_name':'PMAS','credits':3},{'course_id':'CS355','course_name':'DB','credits':4}]}
+,
+{'FirstName':'Abid', 'LastName':'Kasim','CGPA':2.9,'Major':'SDP','Address':{'Street':'ST-2, North Nazimabad,','City': 'Karachi','Province':'Sindh','Country':'Pakistan'},'Phone':'9221-6678442','Courses':[{'course_id':'CS411','course_name':'AI','credits':3}, {'course_id':'CS121','course_name':'OOP','credits':4},{'course_id':'CS411','course_name':'AI','credits':3}]}
+,
+{'FirstName':'Zainab', 'LastName':'Karim','CGPA':3.1,'Major':'CS','Address':{'Street':'3-Khalid Centre, Wahdat Road','City': 'Karachi','Province':'Sindh','Country':'Pakistan'},'Phone':'021-4412625','Courses':[{'course_id':'CS355','course_name':'DB','credits':4},{'course_id':'CS101','course_name':'Pfun','credits':4}]}
+,
+{'FirstName':'Kumar', 'LastName':'Rani','CGPA':2.8,'Major':'EE','Address':{'Street':'Malik Park Islam','City': 'Lahore','Province':'Punjab','Country':'Pakistan'},'Phone':'042-7113284','Courses':[{'course_id':'CS101','course_name':'Pfun','credits':4}]}
+,
+{'FirstName':'Fahim', 'LastName':'Alam','CGPA':3.7,'Address':{'Street':'Wilbert Squares','City': 'Hunza','Province':'Gilgit-Baltistan','Country':'Pakistan'},'Phone':'359-99997'}
+])
