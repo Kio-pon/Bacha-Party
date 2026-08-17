@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1745753539">
+  <File Type="PA-TCL" Name="XADCdemo.tcl"/>
+  <File Type="REPORTS-TCL" Name="XADCdemo_reports.tcl"/>
+  <File Type="RDS-RDS" Name="XADCdemo.vds"/>
+  <File Type="RDS-UTIL" Name="XADCdemo_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="XADCdemo_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="XADCdemo.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/DigitToSeg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/needs/Downloads/Basys3-master/Basys3-master/Projects/XADC_Demo/src/hdl/DigitToSeg.v"/>
+        <Attr Name="ImportTime" Val="1667307923"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/JoyStickDirection.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/counter3bit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/needs/Downloads/Basys3-master/Basys3-master/Projects/XADC_Demo/src/hdl/counter3bit.v"/>
+        <Attr Name="ImportTime" Val="1667307924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/decoder3_8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/needs/Downloads/Basys3-master/Basys3-master/Projects/XADC_Demo/src/hdl/decoder3_8.v"/>
+        <Attr Name="ImportTime" Val="1667307924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/mux4_4bus.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/needs/Downloads/Basys3-master/Basys3-master/Projects/XADC_Demo/src/hdl/mux4_4bus.v"/>
+        <Attr Name="ImportTime" Val="1667307924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/segClkDevider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/needs/Downloads/Basys3-master/Basys3-master/Projects/XADC_Demo/src/hdl/segClkDevider.v"/>
+        <Attr Name="ImportTime" Val="1667321713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/sevensegdecoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/needs/Downloads/Basys3-master/Basys3-master/Projects/XADC_Demo/src/hdl/sevensegdecoder.v"/>
+        <Attr Name="ImportTime" Val="1667307924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/XADCdemo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/needs/Downloads/Basys3-master/Basys3-master/Projects/XADC_Demo/src/hdl/XADCdemo.v"/>
+        <Attr Name="ImportTime" Val="1667495509"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/UART_TX_CTRL.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="C:/Users/needs/Downloads/Basys3-master/Basys3-master/Projects/XADC_Demo/src/hdl/UART_TX_CTRL.vhd"/>
+        <Attr Name="ImportTime" Val="1667307924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="XADCdemo"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/needs/Downloads/Basys3-master/Basys3-master/Projects/XADC_Demo/src/constraints/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1667494644"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="xadc_wiz_0"/>
+</GenRun>

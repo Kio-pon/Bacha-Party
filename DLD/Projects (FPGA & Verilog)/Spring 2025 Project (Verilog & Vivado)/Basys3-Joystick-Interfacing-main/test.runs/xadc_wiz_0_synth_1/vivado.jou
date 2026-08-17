@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Apr 17 18:17:01 2025
+# Process ID: 25080
+# Current directory: D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/xadc_wiz_0_synth_1
+# Command line: vivado.exe -log xadc_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xadc_wiz_0.tcl
+# Log file: D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/xadc_wiz_0_synth_1/xadc_wiz_0.vds
+# Journal file: D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/xadc_wiz_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source xadc_wiz_0.tcl -notrace

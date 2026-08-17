@@ -1,0 +1,156 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Apr 17 15:04:14 2025
+# Process ID: 22684
+# Current directory: D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23940 D:\University\SEM 2\DLD\Project\Basys3-Joystick-Interfacing-main\test.xpr
+# Log file: D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/vivado.log
+# Journal file: D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.xpr}
+update_compile_order -fileset sources_1
+upgrade_ip -vlnv xilinx.com:ip:xadc_wiz:3.3 [get_ips  xadc_wiz_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips xadc_wiz_0] -no_script -sync -force -quiet
+generate_target all [get_files  {{D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}]
+catch { config_ip_cache -export [get_ips -all xadc_wiz_0] }
+export_ip_user_files -of_objects [get_files {{D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}]
+launch_runs xadc_wiz_0_synth_1 -jobs 12
+wait_on_run xadc_wiz_0_synth_1
+export_simulation -of_objects [get_files {{D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}] -directory {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.ip_user_files/sim_scripts} -ip_user_files_dir {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.ip_user_files} -ipstatic_source_dir {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.ip_user_files/ipstatic} -lib_map_path [list {modelsim=D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.cache/compile_simlib/modelsim} {questa=D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.cache/compile_simlib/questa} {riviera=D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.cache/compile_simlib/riviera} {activehdl=D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+file mkdir D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/new
+file mkdir D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/new
+file mkdir D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/new
+file mkdir D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/new
+file mkdir D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/new
+file mkdir D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/new
+file mkdir {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/new}
+close [ open {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/new/JoyStickDirection.v} w ]
+add_files {{D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/new/JoyStickDirection.v}}
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/University/SEM 2/DLD/Project/please2/please2.xpr}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ldr_rc_timing [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ldr_rc_timing [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/please2/please2.runs/impl_1/ldr_rc_timing.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/please2/please2.runs/impl_1/ldr_rc_timing.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/please2/please2.runs/impl_1/ldr_rc_timing.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_project
+open_project {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.xpr}
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/University/SEM 2/DLD/Project/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

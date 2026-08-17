@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat May 10 23:10:17 2025
+# Process ID: 26608
+# Current directory: D:/University/SEM 2/DLD/Project/keyboardshi/keyboardshi.runs/synth_1
+# Command line: vivado.exe -log led_race_track.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source led_race_track.tcl
+# Log file: D:/University/SEM 2/DLD/Project/keyboardshi/keyboardshi.runs/synth_1/led_race_track.vds
+# Journal file: D:/University/SEM 2/DLD/Project/keyboardshi/keyboardshi.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source led_race_track.tcl -notrace
