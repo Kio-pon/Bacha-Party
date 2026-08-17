@@ -35,34 +35,34 @@ Each course folder is organized into clear subfolders based on the available mat
 
 ### 💻 DSSE (Computer Science & Engineering)
 
-| Course | Code | Details |
+| Course | Code | Stream / Majors |
 |---|---|---|
-| **[Object-Oriented Programming (OOP)](OOP/)** | CS 200 | CS & CE Core |
-| **[Digital Logic & Design (DLD)](DLD/)** | CS 130 / CE 112 | CS & CE Core |
-| **[Database Management Systems (DBMS)](DBMS/)** | CS 355 | CS Core |
-| **[Computer Architecture (CA)](CA/)** | CS 224 / CE 222 | CS & CE Core |
-| **[Signals & Systems (SNS)](SNS/)** | EE 213 / CE 221 | EE & CE Core |
+| **[Object-Oriented Programming (OOP)](OOP/)** | CS 224 / CE 272 | CS · CE · EE |
+| **[Digital Logic & Design (DLD)](DLD/)** | CS 130 / CE 222 / EE 172 | CS · CE · EE |
+| **[Database Systems (DBMS)](DBMS/)** | CS 355 / CE 373 | CS · CE |
+| **[Computer Architecture (CA)](CA/)** | CS 330 / CE 321 / EE 371 | CS · CE · EE |
+| **[Signals & Systems (SNS)](SNS/)** | EE 252 / CE 252 | EE · CE |
 
 ---
 
 ### 📐 iSciM (Integrated Sciences & Mathematics)
 
-| Course | Code | Details |
+| Course | Code | Stream / Majors |
 |---|---|---|
-| **[Linear Algebra (LA)](LA/)** | MATH 205 | DSSE Core / Math |
-| **[Engineering Mathematics (EM)](EM/)** | MATH 102 | CE & EE Core / Math |
-| **[Probability & Statistics (PNS)](PNS/)** | MATH 310 / CE 354 / EE 361 | DSSE Core / Math |
-| **[Water: Intro to Environmental Science](Water%20(ENVS%20251)/)** | ENVS 251 | Natural Science Elective |
+| **[Linear Algebra (LA)](LA/)** | MATH 205 | DSSE · Math |
+| **[Engineering Mathematics (EM)](EM/)** | MATH 202 | CE · EE · Math |
+| **[Probability & Statistics (PNS)](PNS/)** | EE 354 / CE 361 / MATH 310 | DSSE · Math |
+| **[Water: Science, Society & Policy](Water%20(ENVS%20251)/)** | ENVS 251 / SDP 251 | Natural Science Elective |
 
 ---
 
-### 📖 AHSS & Habib Liberal Core
+### 📖 AHSS & University Requirements
 
-| Course | Code | Details |
+| Course | Code | Stream / Majors |
 |---|---|---|
-| **[Pakistan & Modern South Asia (PAMSA)](PAMSA/)** | HIST 121 | University Core |
-| **[Self & Modernity (SM)](SM/)** | CORE 121 | University Core |
-| **[Hikma I (Meaning & Interpretation)](HIKMA/)** | CORE 111 | University Core |
+| **[Pakistan & Modern South Asia (PAMSA)](PAMSA/)** | CORE 201 / HIST 121 | All Majors |
+| **[Scientific Methods (SM)](SM/)** | CORE 200 | All Majors |
+| **[Hikma I (Meaning & Interpretation)](HIKMA/)** | CORE 102 / CORE 111 | All Majors |
 
 ---
 
