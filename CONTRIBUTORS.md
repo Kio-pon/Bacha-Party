@@ -9,6 +9,7 @@ A big thank you to everyone who took out the time to share their course slides, 
 | **Ahmed Mujtaba** | Computer Science | Class of '28 |
 | **Areeba Izhar** | Computer Science | Class of '28 |
 | **Sarah Fatima** | Electrical Engineering | Class of '28 |
+| **Yousuf Lali** | Computer Engineering | Class of '28 |
 
 ---
 
